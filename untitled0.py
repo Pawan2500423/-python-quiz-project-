@@ -11,9 +11,9 @@ def run_quiz():
     print("WELCOME TO THE PYTHON QUIZ!")
 
     user_name = input("Please enter your name: ").strip()
-    print(f"Hello, {user_name}! Let's test your knowledge with 3 questions.")
+    print(f"Hello, {user_name}! Let's test your knowledge with 4 questions.")
     score = 0
-    total_questions = 3
+    total_questions = 4
 
     print("Question 1: What is the capital of Srilanka?")
     print("A) moratuwa")
