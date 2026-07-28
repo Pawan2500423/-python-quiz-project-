@@ -50,7 +50,18 @@ def run_quiz():
         score += 1
     else:
         print("Incorrect. The correct answer was B (Mount everest).")
-
+        
+    print("Question 4: Whats the most populated country in the world?")
+    print("A) China")
+    print("B) India")
+    print("C) Russia")
+    answer_4 = input("Your answer (A, B, or C): ").strip().lower()
+    if answer_4 == "a" or answer_4 == "China":
+        print("Correct!")
+        score += 1
+    else:
+        print("Incorrect. The correct answer was a (China).")
+        
     print(f" QUIZ COMPLETE, {user_name.upper()}! ")
 
     print(f"Your Final Score: {score} out of {total_questions}")
